@@ -1,14 +1,14 @@
 //
-//  CircleCCCView.h
+//  CircleLHQView.h
 //  SliderCircleDemo
 //
-//  Created by apple on 15/6/30.
+//  Created by 123456 on 15-7-1.
 //  Copyright (c) 2015年 HuaZhengInfo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface CircleCCCView : UIView
+@interface CircleLHQView : UIView
 
 @property (nonatomic,strong) void(^clickSomeOne)(NSString *);
 
@@ -16,6 +16,5 @@
 -(id)initWithFrame:(CGRect)frame andImage:(UIImage *)image;
 
 //加子视图 图片 文字 大小
--(void)addSubViewWithSubView:(NSArray *)imageArray andTitle:(NSArray *)titleArray andSize:(CGSize)size andcenterImage:(UIImage *)centerImage;
-
+-(void)addSubViewWithSubView:(NSArray *)imageArray andTitle:(NSArray *)titleArray andSize:(CGSize)size andCenterImage:(UIImage *)centerImage;
 @end

@@ -14,8 +14,7 @@
 		1872691B1B42C10C00BDCE26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872691A1B42C10C00BDCE26 /* Images.xcassets */; };
 		1872691E1B42C10C00BDCE26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1872691C1B42C10C00BDCE26 /* LaunchScreen.xib */; };
 		1872692A1B42C10C00BDCE26 /* SliderCircleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187269291B42C10C00BDCE26 /* SliderCircleDemoTests.m */; };
-		187269351B42C13A00BDCE26 /* CircleCCCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187269341B42C13A00BDCE26 /* CircleCCCView.m */; };
-		F52DCC741B43CC7B00C0F02B /* CircleLHQView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52DCC731B43CC7B00C0F02B /* CircleLHQView.m */; };
+		8182295B1BE21CA80018F6F2 /* CircleLHQView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8182295A1BE21CA80018F6F2 /* CircleLHQView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +41,8 @@
 		187269231B42C10C00BDCE26 /* SliderCircleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderCircleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187269281B42C10C00BDCE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187269291B42C10C00BDCE26 /* SliderCircleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderCircleDemoTests.m; sourceTree = "<group>"; };
-		187269331B42C13A00BDCE26 /* CircleCCCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCCCView.h; sourceTree = "<group>"; };
-		187269341B42C13A00BDCE26 /* CircleCCCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCCCView.m; sourceTree = "<group>"; };
-		F52DCC721B43CC7B00C0F02B /* CircleLHQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLHQView.h; sourceTree = "<group>"; };
-		F52DCC731B43CC7B00C0F02B /* CircleLHQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLHQView.m; sourceTree = "<group>"; };
+		818229591BE21CA80018F6F2 /* CircleLHQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLHQView.h; sourceTree = "<group>"; };
+		8182295A1BE21CA80018F6F2 /* CircleLHQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLHQView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +66,6 @@
 		187269011B42C10B00BDCE26 = {
 			isa = PBXGroup;
 			children = (
-				F52DCC721B43CC7B00C0F02B /* CircleLHQView.h */,
-				F52DCC731B43CC7B00C0F02B /* CircleLHQView.m */,
-				187269331B42C13A00BDCE26 /* CircleCCCView.h */,
-				187269341B42C13A00BDCE26 /* CircleCCCView.m */,
 				1872690C1B42C10C00BDCE26 /* SliderCircleDemo */,
 				187269261B42C10C00BDCE26 /* SliderCircleDemoTests */,
 				1872690B1B42C10C00BDCE26 /* Products */,
@@ -91,6 +84,8 @@
 		1872690C1B42C10C00BDCE26 /* SliderCircleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				818229591BE21CA80018F6F2 /* CircleLHQView.h */,
+				8182295A1BE21CA80018F6F2 /* CircleLHQView.m */,
 				187269111B42C10C00BDCE26 /* AppDelegate.h */,
 				187269121B42C10C00BDCE26 /* AppDelegate.m */,
 				187269141B42C10C00BDCE26 /* ViewController.h */,
@@ -229,8 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187269351B42C13A00BDCE26 /* CircleCCCView.m in Sources */,
-				F52DCC741B43CC7B00C0F02B /* CircleLHQView.m in Sources */,
+				8182295B1BE21CA80018F6F2 /* CircleLHQView.m in Sources */,
 				187269161B42C10C00BDCE26 /* ViewController.m in Sources */,
 				187269131B42C10C00BDCE26 /* AppDelegate.m in Sources */,
 				187269101B42C10C00BDCE26 /* main.m in Sources */,
@@ -358,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SliderCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -368,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SliderCircleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
